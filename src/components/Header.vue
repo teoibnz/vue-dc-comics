@@ -6,14 +6,7 @@
             </div>
             <div class="navbar-container">
                 <ul class="my-navbar">
-                    <li class="navbar-items">items</li>
-                    <li class="navbar-items">items</li>
-                    <li class="navbar-items">items</li>
-                    <li class="navbar-items">items</li>
-                    <li class="navbar-items">items</li>
-                    <li class="navbar-items">items</li>
-                    <li class="navbar-items">items</li>
-                    
+                    <li class="navbar-items" v-for="(element, index) in navbarMenu" :key="index">{{element.name}}</li>
                 </ul>
             </div>
         </div>
@@ -23,6 +16,42 @@
 <script>
 export default {
     name : 'HeaderIndex',
+    data : function(){
+        return {
+            navbarMenu : [
+                {
+                    name : 'CHARACACTERS',
+                },
+                {
+                    name : 'COMICS',
+                },
+                {
+                    name : 'MOVIES',
+                },
+                {
+                    name : 'TV',
+                },
+                {
+                    name : 'GAMES',
+                },
+                {
+                    name : 'COLLECTIBLES',
+                },
+                {
+                    name : 'VIDEOS',
+                },
+                {
+                    name : 'FANS',
+                },
+                {
+                    name : 'NEWS',
+                },
+                {
+                    name : 'SHOP',
+                },
+            ]
+        }
+    }
 }
 </script>
 
