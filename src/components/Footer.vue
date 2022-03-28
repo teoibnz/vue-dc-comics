@@ -70,6 +70,14 @@ export default {
         height: 100%;
         
     }
+    ul{
+        margin: 1.5rem;
+        font-weight: bold;
+        li{
+            list-style-type: none;
+            
+        }
+    }
 }
 
 .footer{

@@ -84,12 +84,18 @@ export default {
 .my-navbar{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    
     height: 100%;
     margin: 0 0 0 0;
     padding: 0;
     li {
+        display: flex;
         list-style: none;
+        align-items: center;
+        height: 100%;
+        &:hover{
+                border-bottom: 3px solid #0282f9;
+            }
     }
 }
 </style>
