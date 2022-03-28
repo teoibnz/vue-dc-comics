@@ -2,6 +2,7 @@
   <div id="app">
     <Header/>
     <Content/>
+    <Bonus/>
     <Footer/>
   </div>
 </template>
@@ -9,6 +10,7 @@
 <script>
 import Header from './components/Header.vue'
 import Content from './components/Content.vue'
+import Bonus from './components/Bonus.vue'
 import Footer from './components/Footer.vue'
 
 
@@ -19,6 +21,7 @@ export default {
   components: {
     Header,
     Content,
+    Bonus,
     Footer,
   }
 }
