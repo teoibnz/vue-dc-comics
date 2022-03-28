@@ -1,6 +1,10 @@
 <template>
     <div>
-        <h1>Content goes Here</h1>
+        <main>
+            <div class="content-wrapper">
+                <h1>Content goes Here</h1>
+            </div>
+        </main>
     </div>
 </template>
 
@@ -12,4 +16,17 @@ export default {
 
 <style scoped lang="scss">
 
+main{
+    background-color: black;
+    min-height: 15vh;
+
+}
+
+.content-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    h1{
+        color: white;
+    }
+}
 </style>
