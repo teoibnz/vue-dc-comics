@@ -65,7 +65,7 @@ export default {
 }
 
 .logo-container{
-    width: 20%;
+    width: 10%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -77,7 +77,7 @@ export default {
 }
 
 .navbar-container{
-    width: 55%;
+    width: 65%;
     height: 100%;
 }
 

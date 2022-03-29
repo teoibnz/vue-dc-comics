@@ -4,41 +4,41 @@
             <div class="list-wrapper">
                 <div>
                     <ul>DC COMICS
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Characters</li>
+                        <li>Comics</li>
+                        <li>Movies</li>
+                        <li>TV</li>
+                        <li>Games</li>
+                        <li>Videos</li>
+                        <li>News</li>
                     </ul>
                     <ul>SHOP
-                        <li></li>
-                        <li></li>
+                        <li>Shop DC</li>
+                        <li>Shop DC Collectibles</li>
                     </ul>
                 </div>
                 <div>
                     <ul>DC
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Terms Of Use</li>
+                        <li> Privacy policy (New)</li>
+                        <li>Ad Choise</li>
+                        <li>Advertising</li>
+                        <li>Jobs</li>
+                        <li>Subscriptions</li>
+                        <li>Talent Workshops</li>
+                        <li>CPSC Certificates</li>
+                        <li> Ratings</li>
+                        <li>Shop Help</li>
+                        <li>Contact Us</li>
                     </ul>
                 </div>
                 <div>
                     <ul> SITES
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>DC</li>
+                        <li>MAD Magazine</li>
+                        <li>DC Kids</li>
+                        <li>DC Universe</li>
+                        <li>DC Power Visa</li>
                     </ul>
                 </div>
             </div>
@@ -78,9 +78,11 @@ export default {
     ul{
         margin: 1.5rem;
         font-weight: bold;
+        padding-bottom: 0.5rem;
         li{
             list-style-type: none;
-            
+            color: grey;
+            margin-top: 0.3rem;
         }
     }
 }
@@ -111,7 +113,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding-top: 2rem;
     button{
         padding: 0.7rem;
         background-color: #303030;

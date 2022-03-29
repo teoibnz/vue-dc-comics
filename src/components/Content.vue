@@ -99,7 +99,7 @@ export default {
 <style scoped lang="scss">
 
 main{
-    background-color: black;
+    background-color: rgb(24, 24, 24);
     min-height: 15vh;
     padding-top: 4rem;
 }
