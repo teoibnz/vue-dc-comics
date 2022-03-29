@@ -2,7 +2,9 @@
     <div>
         <main>
             <div class="content-wrapper">
-                <h1>Content goes Here</h1>
+                <div class="card-wrapper">
+                    
+                </div>
             </div>
         </main>
     </div>
@@ -23,8 +25,9 @@ main{
 }
 
 .content-wrapper{
-    width: 80%;
+    width: 65%;
     margin: 0 auto;
+    border: 1px solid white;
     h1{
         color: white;
     }

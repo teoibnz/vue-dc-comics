@@ -48,7 +48,12 @@
             </div>
         </div>
         <div class="socials">
-
+            <div class="social-wrapper">
+                <button> SIGN-UP NOW!</button>
+                <div class="social-items">
+                    <h2>FOLLOW US</h2>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -83,15 +88,35 @@ export default {
 .footer{
     background-image: url(../assets/img/footer-bg.jpg);
     width: 100%;
-    height: 50vh;
+    height: 45vh;
 }
 
 .footer-wrapper{
     display: flex;
     justify-content: space-between;
     overflow-y: hidden;
-    width: 80%;
+    width: 65%;
     height: 100%;
     margin: 0 auto;
+}
+
+.socials{
+    background-color: #303030;
+    height: 10vh;
+}
+
+.social-wrapper{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    button{
+        padding: 0.7rem;
+        background-color: #303030;
+        color: white;
+        border: 1px solid #0282f9
+    }
 }
 </style>

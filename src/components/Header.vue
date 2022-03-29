@@ -57,7 +57,7 @@ export default {
 
 <style scoped lang="scss">
 .navbar-wrapper{
-    width: 80%;
+    width: 65%;
     height: 15vh;
     margin: 0 auto;
     display: flex;
@@ -93,6 +93,7 @@ export default {
         list-style: none;
         align-items: center;
         height: 100%;
+        margin-right: 1rem;
         &:hover{
                 border-bottom: 3px solid #0282f9;
             }
